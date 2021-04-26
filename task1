@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="cent" style="text-align: center;">
+    <h1 >Employee Interest Survey Form</h1>
+    <p>Enter your name: <input type="text"></p>
+    <p>Enter your department: <input type="text"></p>
+    <p>tell us a little about yourself: <textarea cols="50" rows="6"></textarea></p>
+    <p>Do you exercise at home? <input type="radio" name="yesno">Yes<input type="radio" name="yesno">No</p>
+    <p>How do you like to read about your favorite topic? <br> <input type="checkbox" name="books" id="">
+    Books<input type="checkbox" name="books" id="">Online resources <input type="checkbox" name="books" id="">
+    Phone app <input type="checkbox" name="books" id="">
+    Magazines
+    </p>
+    <p>What genre of movies do you like? <select >
+        <option value="">comedy</option>
+        <option value="">action</option>
+    </select></p>    
+        <input type="button" value="Submit form">
+    
+</div>
+</body>
+</html>
